@@ -6,9 +6,8 @@
 <title>DURU LAB — Duru Özcan 3D Baskı Atölyesi</title>
 <meta name="description" content="Duru Ozcan'in 3D baskı koleksiyonu: maketler, mekanizmalı oyuncaklar, minyatür mobilyalar ve mutfak parçaları.">
 <meta name="author" content="Duru Özcan">
-<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMxZDFkMWYiLz48dGV4dCB4PSIzMiIgeT0iNDQiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLEhlbHZldGljYSxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjM0IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5EPC90ZXh0Pjwvc3ZnPg==" type="image/svg+xml">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJyIiB4MT0iMCIgeTE9IjAiIHgyPSI2NCIgeTI9IjY0IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmYyZDU1Ii8+PHN0b3Agb2Zmc2V0PSIuMiIgc3RvcC1jb2xvcj0iI2ZmN2EwMCIvPjxzdG9wIG9mZnNldD0iLjQiIHN0b3AtY29sb3I9IiNkZGE0MDAiLz48c3RvcCBvZmZzZXQ9Ii42IiBzdG9wLWNvbG9yPSIjMWZhZTRkIi8+PHN0b3Agb2Zmc2V0PSIuOCIgc3RvcC1jb2xvcj0iIzBhODRmZiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2E4NTVmNyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjE0IiBmaWxsPSJ1cmwoI3IpIi8+PHRleHQgeD0iMzIiIHk9IjQ1IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSxIZWx2ZXRpY2EsQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+RDwvdGV4dD48L3N2Zz4=" type="image/svg+xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="DURU LAB">
 <meta property="og:title" content="DURU LAB — Duru Özcan 3D Baskı Atölyesi">
@@ -39,49 +38,15 @@
   --shadow-l:0 20px 60px rgba(0,0,0,.14);
   --r-card:22px;
   --r-pill:980px;
+  --rainbow:linear-gradient(96deg,#ff2d55 0%,#ff7a00 20%,#dda400 38%,#1fae4d 57%,#0a84ff 78%,#a855f7 100%);
   --sans:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue","Segoe UI",Roboto,Arial,sans-serif;
   --serif:"Newsreader",Georgia,"Times New Roman",serif;
   --maxw:1180px;
 }
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    --ground:#000000;
-    --surface:#161617;
-    --surface-2:#1d1d1f;
-    --warm:#191716;
-    --ink:#f5f5f7;
-    --ink-2:#a1a1a6;
-    --ink-3:#86868b;
-    --line:#2a2a2d;
-    --accent:#2997ff;
-    --accent-ink:#00121f;
-    --accent-soft:rgba(41,151,255,.14);
-    --good:#41c463;
-    --bar:rgba(22,22,23,.72);
-    --shadow-s:0 1px 2px rgba(0,0,0,.5), 0 6px 18px rgba(0,0,0,.4);
-    --shadow-l:0 20px 60px rgba(0,0,0,.6);
-  }
-}
-:root[data-theme="dark"]{
-  --ground:#000000;
-  --surface:#161617;
-  --surface-2:#1d1d1f;
-  --warm:#191716;
-  --ink:#f5f5f7;
-  --ink-2:#a1a1a6;
-  --ink-3:#86868b;
-  --line:#2a2a2d;
-  --accent:#2997ff;
-  --accent-ink:#00121f;
-  --accent-soft:rgba(41,151,255,.14);
-  --good:#41c463;
-  --bar:rgba(22,22,23,.72);
-  --shadow-s:0 1px 2px rgba(0,0,0,.5), 0 6px 18px rgba(0,0,0,.4);
-  --shadow-l:0 20px 60px rgba(0,0,0,.6);
-}
+/* Sayfa her koşulda açık/beyaz kalır — koyu tema yok. */
+:root,:root[data-theme="dark"],:root[data-theme="light"]{color-scheme:light}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
-:root{color-scheme:light dark}
 body{
   margin:0;
   background:var(--ground);
@@ -110,10 +75,18 @@ p{margin:0}
   backdrop-filter:saturate(180%) blur(20px);
   border-bottom:1px solid var(--line);
 }
-.bar-in{height:54px;display:flex;align-items:center;gap:18px}
-.mark{display:flex;align-items:baseline;gap:6px;letter-spacing:-.01em;color:var(--ink)}
-.mark b{font-weight:700;font-size:17px;letter-spacing:.02em}
-.mark span{font-weight:300;font-size:17px;letter-spacing:.22em;color:var(--ink-2)}
+.bar-in{height:72px;display:flex;align-items:center;gap:20px}
+.mark{
+  display:flex;align-items:baseline;gap:8px;letter-spacing:-.01em;color:var(--ink);
+  padding-block:6px;flex:none;
+  background-image:var(--rainbow);background-size:100% 100%;
+}
+.mark b{font-weight:800;font-size:25px;letter-spacing:.01em}
+.mark span{font-weight:300;font-size:25px;letter-spacing:.2em}
+@supports ((-webkit-background-clip:text) or (background-clip:text)){
+  .mark{-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+}
+.foot .mark b,.foot .mark span{font-size:22px}
 .nav{display:flex;gap:26px;margin-inline:auto}
 .nav a{font-size:13px;color:var(--ink-2);letter-spacing:.01em}
 .nav a:hover{color:var(--ink)}
@@ -394,8 +367,8 @@ footer{background:var(--surface);padding-block:48px;border-top:1px solid var(--l
 <main id="top">
   <section class="wrap hero">
     <p class="eyebrow">Duru Özcan · 3D Baskı Atölyesi</p>
-    <h1>Bir masanın üstüne<br>sığan koca bir dünya.</h1>
-    <p class="lede">Stadyumlar, kahve dükkânları, çalışan mekanizmalar ve mutfak oyuncakları. Her biri tek tek tasarlanıp basılıyor.</p>
+    <h1>Yaşam Alanın.<br>Senin Tasarımın.</h1>
+    <p class="lede">Tanıdık objelere yeni bir gözle bakıyoruz. Yaşam alanınıza karakter katacak objeleri keşfedin.</p>
     <div class="cta">
       <a class="btn" href="#koleksiyon">Koleksiyonu gör</a>
       <a class="link-arrow" href="#artist">Duru'yu tanı&nbsp;&rsaquo;</a>
@@ -414,7 +387,7 @@ footer{background:var(--surface);padding-block:48px;border-top:1px solid var(--l
     <div class="sec-head">
       <div>
         <p class="eyebrow">Koleksiyon</p>
-        <h2>Hepsi bu atölyeden çıktı.</h2>
+        <h2>Her koleksiyon, başka bir hikâye.</h2>
         <p>Maketler, mekanizmalı oyuncaklar, minyatür mobilyalar ve mutfak parçaları.</p>
       </div>
     </div>
@@ -441,10 +414,10 @@ footer{background:var(--surface);padding-block:48px;border-top:1px solid var(--l
       <div>
         <p class="eyebrow">Artist</p>
         <h2>Duru Özcan</h2>
-        <p class="quote">Tasarımdan baskıya, her parça onun elinden geçiyor.</p>
-        <p class="txt">DURU LAB, Duru'nun atölyesi. Bir fikirle başlıyor: bir stadyumun tribünü, bastırınca klik diyen bir çikolata, kaldırınca spiral gibi açılan bir yumurta. Sonra model bilgisayarda çiziliyor, yazıcıya gönderiliyor ve saatler süren baskının ardından parçalar tek tek birleştiriliyor.</p>
-        <p class="txt">Buradaki her ürün siparişten sonra yeniden basılıyor — yani sizinki, sizin için çıkıyor yazıcıdan.</p>
-        <p class="sign"><i class="rule"></i>DURU LAB</p>
+        <p class="txt">Duru Özcan, 9 yaşında; hayal etmeyi, çizmeyi ve fikirlerini gerçeğe dönüştürmeyi seven genç bir tasarımcı.</p>
+        <p class="txt">Bale, resim ve model tasarımı Duru'nun en sevdiği ilgi alanları arasında. Kâğıt üzerinde başlayan fikirlerini farklı biçimlere dönüştürmekten, renkleri ve formları bir araya getirerek yeni şeyler tasarlamaktan büyük keyif alıyor.</p>
+        <p class="txt">Büyüdüğünde mimar olmak isteyen Duru için tasarım, yalnızca güzel görünen şeyler yapmak değil; hayalindeki dünyayı şekillendirmenin bir yolu. Burada gördüğünüz çalışmalar da onun merakından, çizimlerinden ve küçük fikirlerinden doğuyor.</p>
+        <p class="quote">Küçük fikirler, büyük hayaller.</p>
       </div>
     </div>
   </section>
